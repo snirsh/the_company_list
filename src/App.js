@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function App() {
-  const [theme, setTheme] = useState(true);
+  const [theme, setTheme] = useState(false);
   const classes = useStyles();
   const icon = !theme ? <Brightness7Icon /> : <Brightness3Icon />;
   const appliedTheme = createMuiTheme(theme ? light : dark);
