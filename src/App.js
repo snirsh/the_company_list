@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CompanyTable from './CompanyList';
 import React, { useState } from "react";
@@ -6,7 +5,6 @@ import { ThemeProvider } from "@material-ui/core";
 import { createMuiTheme, makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
 import Brightness3Icon from "@material-ui/icons/Brightness3";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 
